@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --primaryColor: #F44336;
+    --primaryColorRGBValue: 244, 67, 54;
+    --primaryDarkColor: #D32F2F;
+    --primaryDarkerColor: #8d1007;
+    // --fontFamily: Monospace;
+}
+
+html {
+    font-size: 14px;
+    font-family: var(--font-family);
+}

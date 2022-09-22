@@ -1,5 +1,6 @@
 import "./App.css";
 import {
+  setupAnywhereUIReact,
   AnyCheckbox,
   AnyDropdown,
   AnyListbox,
@@ -151,5 +152,9 @@ function App() {
     </div>
   );
 }
+
+setupAnywhereUIReact({
+  rippleEffect: true,
+});
 
 export default App;

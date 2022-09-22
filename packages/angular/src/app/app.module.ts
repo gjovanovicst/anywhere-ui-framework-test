@@ -15,7 +15,7 @@ import { AppComponent } from './app.component';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    AnywhereUiModule,
+    AnywhereUiModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],

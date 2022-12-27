@@ -22,3 +22,12 @@ const app = createApp(rootComponent)
 router.isReady().then(() => {
   app.mount("#app");
 });
+
+// applyPolyfills().then(() => {
+//   defineCustomElements(window, {
+//     ce: (eventName: string, opts: any) =>
+//       new CustomEvent(eventName.toLowerCase(), opts),
+//   } as any).then(() => {
+//     app.mount("#app");
+//   });
+// });

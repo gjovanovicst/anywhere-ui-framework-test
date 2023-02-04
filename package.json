@@ -1,6 +1,9 @@
 {
   "name": "anywhere-ui-framewroks-test",
   "private": true,
+  "scripts": {
+    "install-all": "lerna exec npm install"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
